@@ -93,4 +93,6 @@ do_install() {
 	cp ${S}/plugins-fixed/gx_muff.lv2/modgui.ttl ${S}/plugins-fixed/gx_muff.lv2/manifest.ttl  ${D}/${libdir}/lv2/gx_muff.lv2
 	cp -R ${S}/plugins-fixed/gx_muff.lv2/modgui   ${D}/${libdir}/lv2/gx_muff.lv2/
 
+	install -d ${D}${libdir}/lv2/Freakclip.lv2/
+	cp ${S}/plugins-fixed/Freakclip.lv2/default-preset.ttl ${S}/plugins-fixed/Freakclip.lv2/manifest.ttl  ${D}/${libdir}/lv2/Freakclip.lv2/
 }

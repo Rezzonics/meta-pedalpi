@@ -18,6 +18,7 @@ DAEMON=/usr/bin/pedalpII
 OPTIONS=""
 START_DAEMON=yes
 PIDFILE="/var/run/pedalpII.pid"
+export HOME=/home/root
 DELAY_BEFORE_START=0
 test -f /etc/default/pedalpII && . /etc/default/pedalpII
 

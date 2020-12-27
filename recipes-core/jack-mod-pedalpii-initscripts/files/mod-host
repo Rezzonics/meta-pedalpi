@@ -24,8 +24,8 @@ MOD_LIVE_ISO=1
 MOD_DEV_ENVIRONMENT=0
 MOD_LOG=1
 MOD_DEVICE_WEBSERVER_PORT=80
-HOME=/home/root
-DELAY_BEFORE_START=1
+export HOME=/home/root
+DELAY_BEFORE_START=2
 test -f /etc/default/mod-host && . /etc/default/mod-host
 # mod-monitor:in_1, mod-monitor:in_2 have to be loaded
 jack_load mod-monitor

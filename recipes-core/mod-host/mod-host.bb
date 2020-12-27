@@ -12,8 +12,6 @@ RDEPENDS_${PN} = " jack-utils lilv "
 SRCREV = "520b7fc15579aa3ff836449385ebde6eeb1449b6"
 
 SRC_URI = "git://github.com/moddevices/mod-host.git \
-           file://0001-mod-host-updated-with-patches.patch \
-           file://0002-Some-n-removed-and-corrections.patch \
            "
 
 FILES_${PN} = " /usr/bin/mod-host /usr/lib/jack/ "

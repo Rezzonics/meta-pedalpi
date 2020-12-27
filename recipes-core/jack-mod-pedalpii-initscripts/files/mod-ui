@@ -23,8 +23,8 @@ MOD_LIVE_ISO=1
 MOD_DEV_ENVIRONMENT=0
 MOD_LOG=1
 MOD_DEVICE_WEBSERVER_PORT=80
-HOME=/home/root
-DELAY_BEFORE_START=2
+export HOME=/home/root
+DELAY_BEFORE_START=3
 PIDFILE="/var/run/mod-ui.pid"
 test -f /etc/default/mod-ui && . /etc/default/mod-ui
 

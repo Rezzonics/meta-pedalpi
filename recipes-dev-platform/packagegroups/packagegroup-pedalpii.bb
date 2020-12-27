@@ -13,7 +13,7 @@ RDEPENDS_${PN} += "\
 	jack-mod-pedalpii-initscripts-mod-host \
 	jack-mod-pedalpii-initscripts-mod-ui \
 	jack-mod-pedalpii-initscripts-pedalpii \
-	pedalpii \
+	cc-master \
 	jack-server \
 	mod-utilities \
 	lv2bm \

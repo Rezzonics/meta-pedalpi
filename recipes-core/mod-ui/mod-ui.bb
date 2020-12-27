@@ -10,9 +10,6 @@ DEPENDS = "lilv jack alsa-lib"
 SRCREV = "e565be40f9bc3d4fb43b2f238b668192d6936eab"
 
 SRC_URI = "git://github.com/moddevices/mod-ui.git;branch=master \
-           file://0001-mod-ui-updated-with-patches-on-host.py-and-webserver.patch \
-           file://0002-All-16-patches-added-to-mod-ui.patch \
-           file://0003-Indentations-and-syntax-errors-corrected.patch \
            "
 
 S = "${WORKDIR}/git"

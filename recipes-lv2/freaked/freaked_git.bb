@@ -28,6 +28,7 @@ do_compile () {
 
 do_install () {
 	oe_runmake DESTDIR=${D} PREFIX=/usr LINK_OPTS= install
+        rm ${D}/${libdir}/lv2/Freakclip.lv2/manifest.ttl
 }
 
 FILES_${PN} += "${libdir}/lv2"
